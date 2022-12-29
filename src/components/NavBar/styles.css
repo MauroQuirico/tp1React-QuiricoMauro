@@ -1,0 +1,37 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid red;
+    background-color: blue;
+    position: relative;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover{
+    background-color: lightgreen;
+  }
+  span {
+    color: white;
+    position: absolute;
+    right: 15px;
+  }
+  .cart-widget{
+    position: absolute;
+    right: 30px;
+    top: 10px;
+    width: 35px;
+    height: 35px;
+  }
